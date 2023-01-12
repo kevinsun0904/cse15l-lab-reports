@@ -35,4 +35,3 @@ Step 3: Trying Some Commands
 * This is what my terminal looks like after testing a few of these codes:
 
 ![screenshot 3](https://user-images.githubusercontent.com/122562552/212193463-d7e8dbed-1306-4ed8-81d0-d5807d8bd635.png)
-
