@@ -6,6 +6,7 @@ Step 1: Installing VScode
 * For this step, I first went onto the [VScode website](https://code.visualstudio.com/) to download and install visual studio code.
 * Then I went to the [Git website](https://gitforwindows.org/) to download Git for windows.
 * VScode should looke something like this after setting it up properly:
-![Image](C:/Users/Kevin Sun/Desktop/UCSD/Freshmen/Winter Quarter/CSE 15L/CSE 15L Lab)
+![Image]<img width="1440" alt="screenshot2" src="https://user-images.githubusercontent.com/122562552/212164377-aa666499-8a88-4605-a887-6a7f79cf4057.PNG">
 
 Step 2: Remotely Connecting 
+---
