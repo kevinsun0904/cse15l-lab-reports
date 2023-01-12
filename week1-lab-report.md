@@ -23,3 +23,6 @@ Step 2: Remotely Connecting
 
 Step 3: Trying Some Commands
 ---
+* Now the terminal should be connected to a remote computer in the CSE department.
+* I then tested out a few lines of codes including:
+*  * cd~
