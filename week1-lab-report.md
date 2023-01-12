@@ -18,6 +18,7 @@ Step 2: Remotely Connecting
 * After that, the terminal asked me if I wanted to connect to my host, and I simply answered **yes**.
 * Then I typed my CSE 15L specific password into the terminal in the password section. (Note that it is normal that the password you typed doesnt show due to privacy reasons) 
 * Finally, I pressed enter and this is what it should look like:
+
 ![screenshot](https://user-images.githubusercontent.com/122562552/212191613-c385f59c-3032-42b7-a587-569a4a796e60.png)
 
 Step 3: Trying Some Commands
