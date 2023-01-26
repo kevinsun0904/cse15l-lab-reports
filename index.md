@@ -25,10 +25,10 @@ Step 3: Trying Some Commands
 ---
 * Now the terminal should be connected to a remote computer in the CSE department.
 * I then tested out a few lines of codes including:
-  * `cd~`
-  * `cd`
-  * `ls -lat`
-  * `ls -a`
+  * `cd ~` - This command changes the current working directory to the home directory. 
+  * `cd ..` - This changes the directory to the previous directory.
+  * `ls -lat` - 
+  * `ls -a` - This lists all files in the current working directory. 
   * `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is one of the **other** group members’ username
   * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
   * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
