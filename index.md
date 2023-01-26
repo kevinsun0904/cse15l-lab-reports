@@ -27,11 +27,11 @@ Step 3: Trying Some Commands
 * I then tested out a few lines of codes including:
   * `cd ~` - This command changes the current working directory to the home directory. 
   * `cd ..` - This changes the directory to the previous directory.
-  * `ls -lat` - 
+  * `ls -lat` - `l` means a long list of files, `a` means all files and `t` means in time of last accessed order, so this gives a long list of all the files in directory in terms of when it was last accessed. 
   * `ls -a` - This lists all files in the current working directory. 
-  * `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is one of the **other** group members’ username
-  * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-  * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+  * `ls <directory>` where `<directory>` is `/home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is one of the **other** group members’ username - This shows the files in a certain directory of another user. 
+  * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/` - This copies a file called `hello.txt` to the current directory. 
+  * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt` - This outputs the text within `hello.txt` to the terminal.
 * This is what my terminal looks like after testing a few of these codes:
 
 ![screenshot 3](https://user-images.githubusercontent.com/122562552/212193463-d7e8dbed-1306-4ed8-81d0-d5807d8bd635.png)
