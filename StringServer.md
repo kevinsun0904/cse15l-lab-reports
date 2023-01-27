@@ -15,5 +15,6 @@ For this lab report, I wrote a java program which starts a localhost server that
 * The relevant argument is the **URL** that was inputted by me when using the server and the relevant class field is the instance variable **list** which stores all of the string messages inputted. There are also local variables such as **parameters** which is used to stored the splitted URL, and **output** which is used to return **list** as a String. 
 * In this specific request, the URL inputted is `http://localhost:4000/add-message?s=apple`, and **list** got changed such that "apple" is added to the list. 
 
+
 <img width="339" alt="addOrange" src="https://user-images.githubusercontent.com/122562552/215206205-0a0a18f1-4a81-49b5-8852-5442b1c8c50b.PNG">
 
