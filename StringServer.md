@@ -1,7 +1,7 @@
 # Week 3 Lab Report
 For this lab report, I wrote a java program which starts a localhost server that can take in queries to add to a string list with the URL and display the elements in the list. 
 ## Part One: Implementing StringServer
-**The following is the code for my StringServer:**
+### The following is the code for my StringServer:
 - In my code, the StringServer class is mainly used to take in the port number when running the server, and starting the server properly.
 - The Handler class is used to handle any requests or queries typed in the URL, and outputs "404 not found" if the path or query is not specified.
 
@@ -25,5 +25,58 @@ For this lab report, I wrote a java program which starts a localhost server that
 * In this specific request, the URL inputted is `http://localhost:4000/add-message?s=orange`, and **list** got changed such that "orange" is added to the list. 
 
 
-## Part Two: Debugging from Lab 3
 
+## Part Two: Debugging from Lab 3
+### The following is a buggy method from Lab 3:
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+### This is a JUnit test for the previous method that fails:
+```
+@Test
+public void testReverseInPlace1() {
+    int[] input1 = {1, 2, 3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3, 2, 1}, input1);
+}
+```
+### This is a JUnit test for the previous method that passes:
+```
+@Test
+public void testReverseInPlace2() {
+    int[] input1 = {3, 1, 3};
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{3, 1, 3}, input1);
+}
+```
+### The following screenshot is the symptom after running the two testers:
+
+<img width="1034" alt="testReverseFail" src="https://user-images.githubusercontent.com/122562552/215219716-e80b1bdb-a66b-4c9e-a6af-6aab281c31ad.PNG">
+
+
+### The following is a comparason between the code before and after fixing the bug:
+**Before:**
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+        arr[i] = arr[arr.length - i - 1];
+    }
+}
+```
+
+**After:**
+```
+static void reverseInPlace(int[] arr) {
+    int[] temp = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+        temp[i] = arr[arr.length - i - 1];
+    }
+    for(int i = 0; i < arr.length; i++){
+        arr[i] = temp[i];
+    }
+}
+```
