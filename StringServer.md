@@ -7,8 +7,8 @@ For this lab report, I wrote a java program which starts a localhost server that
 
 <img width="652" alt="stringServerCode" src="https://user-images.githubusercontent.com/122562552/215205003-e50eb0ac-5af4-4abc-8f8e-fd031ba0e9f4.PNG">
 
----
-**The following are two screenshots of using `/add-message`:**
+
+### The following are two screenshots of using `/add-message`:
 
 <img width="345" alt="addApple" src="https://user-images.githubusercontent.com/122562552/215206197-d7c0782e-0b3e-41b3-a661-6694ef6b45d4.PNG">
 
