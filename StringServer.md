@@ -81,6 +81,7 @@ static void reverseInPlace(int[] arr) {
 }
 ```
 **How does this fix the issue?**
+
 The bug of this method is mainly that when the array **arr** is reversed in place, the original array is overrided when the reveresed element is copied to the front of the array. Therefore, to fix this bug, I stored the reversed elements in a temporary array called **temp**, and deep copied the elements of **temp** into **arr**. Deep copy is required in this case because shallow copy would just change the reference of the local varaible **arr**, which means the original array outside of this method used as the argument would not be changed. 
 
 
