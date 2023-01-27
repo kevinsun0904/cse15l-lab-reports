@@ -7,7 +7,7 @@ For this lab report, I wrote a java program which starts a localhost server that
 
 <img width="652" alt="stringServerCode" src="https://user-images.githubusercontent.com/122562552/215205003-e50eb0ac-5af4-4abc-8f8e-fd031ba0e9f4.PNG">
 
-
+---
 **The following are two screenshots of using `/add-message`:**
 
 <img width="345" alt="addApple" src="https://user-images.githubusercontent.com/122562552/215206197-d7c0782e-0b3e-41b3-a661-6694ef6b45d4.PNG">
@@ -16,6 +16,6 @@ For this lab report, I wrote a java program which starts a localhost server that
 * The relevant argument is the **URL** that was inputted by me when using the server and the relevant class field is the instance variable **list** which stores all of the string messages inputted. There are also local variables such as **parameters** which is used to stored the splitted URL, and **output** which is used to return **list** as a String. 
 * In this specific request, the URL inputted is `http://localhost:4000/add-message?s=apple`, and **list** got changed such that "apple" is added to the list. 
 
-
+---
 <img width="339" alt="addOrange" src="https://user-images.githubusercontent.com/122562552/215206205-0a0a18f1-4a81-49b5-8852-5442b1c8c50b.PNG">
 
