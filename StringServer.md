@@ -9,5 +9,8 @@ For this lab report, I wrote a java program which starts a localhost server that
 
 
 **The following are two screenshots of using `/add-message`:**
+
 <img width="345" alt="addApple" src="https://user-images.githubusercontent.com/122562552/215206197-d7c0782e-0b3e-41b3-a661-6694ef6b45d4.PNG">
+
 <img width="339" alt="addOrange" src="https://user-images.githubusercontent.com/122562552/215206205-0a0a18f1-4a81-49b5-8852-5442b1c8c50b.PNG">
+
