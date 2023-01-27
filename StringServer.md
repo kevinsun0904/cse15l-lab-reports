@@ -48,7 +48,7 @@ public void testReverseInPlace1() {
 ```
 @Test
 public void testReverseInPlace2() {
-    int[] input1 = {3, 1, 3};
+    int[] input1 = {2, 1, 3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3, 1, 3}, input1);
 }
@@ -80,3 +80,9 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
+**How does this fix the issue?**
+The bug of this method is mainly that when the array **arr** is reversed in place, the original array is overrided when the reveresed element is copied to the front of the array. Therefore, to fix this bug, I stored the reversed elements in a temporary array called **temp**, and deep copied the elements of **temp** into **arr**. Deep copy is required in this case because shallow copy would just change the reference of the local varaible **arr**, which means the original array outside of this method used as the argument would not be changed. 
+
+
+## Part Three: Reflection
+In lab 2 and lab 3, I mainly learnt how to start a local server on my computer or run it on a remote computer. I can now start a server that takes in different paths or queries and run simple algroithms from the queries. I also learnt how to write testers and debug programs according to the symptom outputted form the tester, and got many practices during lab time. 
