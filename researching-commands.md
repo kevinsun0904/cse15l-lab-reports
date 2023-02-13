@@ -45,7 +45,7 @@ This command-line option means recursive, and it is similar to the find command 
 
 Found on: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
 
-### grep -v
+### grep -v:
 This option reverts the command of grep, and finds all of the lines that doesnt contain the given string. This option can be somewhat useful because it can essentially filter out any lines that contain the given string. The following are two examples:
 
 <img width="705" alt="6" src="https://user-images.githubusercontent.com/122562552/218366302-bee97ee5-70fa-470e-b160-ccee6bd75180.PNG">
@@ -59,4 +59,29 @@ This option reverts the command of grep, and finds all of the lines that doesnt 
 * This example is similar to the previous example, with the only difference being the `-i`.
 * `-i` means that this grep is not case sensitive, so as you can see the line of "A Brief History" is not included in the inverted grep search due to containing the string "Hi".
 
-### grep -c
+Found on: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
+
+### grep -c:
+This option is used to display the count of matching lines for the given string in a text file. This can be useful as it can be used to find occurences of a given string, and can be useful with searching through a text file for related content. The following are three examples:
+
+<img width="477" alt="8" src="https://user-images.githubusercontent.com/122562552/218370083-c9609d5b-dd92-45a6-862e-0afa6e803bd7.PNG">
+
+* This example searches for the number of lines that contains the String "hi" in the file under the directory `written_2/travel_guides/berlitz2/Bahamas-History.txt".
+* 25 is displayed, which means 25 lines contain the string "hi".
+
+---
+
+<img width="477" alt="9" src="https://user-images.githubusercontent.com/122562552/218370299-6437cee5-e43b-4ee4-a37e-ec7ba6f5cca4.PNG">
+
+* This example combines -r with -c to search in all of the files for the number of lines that contain the string "hi".
+* Each result also contains the directory of each file to show how many lines contain "hi" in each file. 
+
+---
+
+<img width="482" alt="10" src="https://user-images.githubusercontent.com/122562552/218370475-6ff81667-9ad3-42bf-b883-2ee02974895f.PNG">
+
+* This example combines -v with -c to search for the number of lines that dont contain the string "hi" in the file under the directory of written_2/travel_guides/berlitz2/Bahamas-History.txt.
+* The result shows that 18 lines dont contain the string "hi" in this file, which means it can be inferred that there are 43 lines in total by summing up this result and the result from the first example. 
+
+Found on: [https://man7.org/linux/man-pages/man1/grep.1.html](https://man7.org/linux/man-pages/man1/grep.1.html)
+
