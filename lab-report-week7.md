@@ -1,1 +1,35 @@
+# Week 7 Lab Report
+This lab report is a tutorial on how to complete the following steps most efficiently:
+1. Log into ieng6
+2. Clone your fork of the repository from your Github account
+3. Run the tests, demonstrating that they fail
+4. Edit the code file to fix the failing test
+5. Run the tests, demonstrating that they now succeed
+6. Commit and push the resulting change to your Github account
 
+## Step 1
+Keys pressed: `<Ctrl + c>`, `<Ctrl + v>`, `<enter>`
+* I used these two commands to copy my login command `ssh cs15lwi23aqq@ieng6.ucsd.edu` from another document to save time. 
+
+<img width="599" alt="1" src="https://user-images.githubusercontent.com/122562552/221046927-4753a247-8929-4513-820d-d39f2f80191d.PNG">
+
+
+## Step 2
+Keys pressed: `git clone `, `<Ctrl + c>`, `<Ctrl + v>`, `cd l`, `<tab>`, `<enter>`
+* I typed `git clone` and used the copy and paste command again to copy this url: git@github.com:kevinsun0904/lab7.git, which clones the lab7 repository I forked previously.
+* Then I typed `cd l` and pressed `<tab>` to allow bash to autocomplete the directory and changed my working directory to ~/lab7
+
+<img width="459" alt="2" src="https://user-images.githubusercontent.com/122562552/221048198-fcf06218-95f8-4ab2-91d2-1b7fbbd3b451.PNG">
+
+
+## Step 3
+Keys pressed: `<Ctrl + c>`, `<Ctrl + v>`, `<enter>`, `<Ctrl + c>`, `<Ctrl + v>`, ` T`, `<tab>`, `<delete>`, `<enter>`
+* I used the first set of copy and paste to copy this line: `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` to compile the code`.
+* Then I used copy and paste again to copy this line: `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore` and typed ` T` (with a space in front of T) and pressed `<tab>` to allow bash to autocomplete the directory to `TestListExamples.`.
+* Then I deleted the extra `.` at the end of the directory to run the test file. 
+
+<img width="770" alt="3" src="https://user-images.githubusercontent.com/122562552/221049639-840fa7c9-a1c8-4a9e-b06d-27f1568ed561.PNG">
+
+
+## Step 4
+Keys pressed: `nano L`, `<tab>`, `j`, `<tab>`, `<enter>`, `<Ctrl + o>`, `while(index2`, `<enter>`, `<down>` * 2, `<right>` * 8, `<delete>`, `2`, `<Ctrl + o>`, `<enter>`, `<Ctrl + x>`
