@@ -50,3 +50,8 @@ Keys pressed: `<up>` * 3, `<enter>`, `<up>` * 3, `<enter>`
 
   
 ## Step 6
+Keys pressed: `git add L <tab> j <tab>`, `git commit -m "message"`
+* I typed `git add L` and used `<tab>` to allow bash to autocomplete it into `git add ListExample.`, and typed `j` and pressed `<tab>` again to complete the whole line into `git add ListExample.java` to add the changes. 
+* Then I typed `git commit -m "message"` to commit these changes to github with a message of "message".
+  
+<img width="436" alt="6" src="https://user-images.githubusercontent.com/122562552/221054684-82442850-c331-46e7-be5c-96ad86ec3836.PNG">
