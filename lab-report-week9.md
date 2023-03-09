@@ -115,3 +115,16 @@ else
   exit 1
 fi
 ```
+
+## Trying the Grade Script
+### Failed Tester
+<img width="554" alt="1" src="https://user-images.githubusercontent.com/122562552/224128837-79032581-dcf5-45c0-b9d3-3d30fa96f52b.PNG">
+
+### Passed Tester
+<img width="572" alt="2" src="https://user-images.githubusercontent.com/122562552/224128869-7e1d4bde-8fa9-417c-abad-e7e4ace35087.PNG">
+
+### Compiler Error
+<img width="537" alt="3" src="https://user-images.githubusercontent.com/122562552/224128891-e7bbeb91-9228-4ceb-a8c5-cd1d6cf6b0c4.PNG">
+
+### Wrong File Name
+<img width="532" alt="4" src="https://user-images.githubusercontent.com/122562552/224128913-b7364db0-d54b-410d-ba7d-318571f2d3bd.PNG">
