@@ -47,3 +47,12 @@ else
   exit 1
 fi
 ```
+
+## Step by Step Breakdown
+### Clone repository
+* This part clones the repository and outputs "Finished cloning".
+```
+rm -rf student-submission
+git clone $1 student-submission
+echo 'Finished cloning'
+```
